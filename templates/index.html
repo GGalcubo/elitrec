@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+{% load static %}
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Elitrec</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Productos eléctricos de las marcas más reconocidas del mercado a un precio inmejorable" />
+	<meta name="keywords" content="html5, css3, mobile first, responsive, dinamic, web, website, design" />
+	<meta name="author" content="www.galcubo.com.ar" />
+  <!-- 
+	//////////////////////////////////////////////////////
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+	//////////////////////////////////////////////////////
+	 -->
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'> -->
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="{% static 'landing/css/animate.css' %}">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="{% static 'landing/css/icomoon.css' %}">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{% static 'landing/css/bootstrap.css' %}">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="{% static 'landing/css/magnific-popup.css' %}">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="{% static 'landing/css/superfish.css' %}">
+	<link rel="stylesheet" href="{% static 'landing/css/style.css' %}">
+	<link rel="stylesheet" href="{% static 'landing/css/scrolling-nav.css' %}">
+	<link rel="stylesheet" href="{% static 'landing/css/estilos.css' %}">
+	<!-- Modernizr JS -->
+	<script src="{% static 'landing/js/modernizr-2.6.2.min.js' %}"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="{% static 'landing/js/respond.min.js' %}"></script>
+	<![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+			<div id="fh5co-header">
+				<header id="fh5co-header-section">
+					<div class="container">
+						<nav class="navbar navbar-inverse navbar-fixed-top clearfix" role="navigation">
+							<div class="container">
+								<div class="navbar-header page-scroll">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+									<h1 id="fh5co-logo"><a class="page-scroll" href="#page-top">Elitrec</a></h1>
+								</div>
+								<div class="collapse navbar-collapse main-nav" id="main-nav">
+									<ul class="nav navbar-nav navbar-right">
+										<li><a class="page-scroll" href="#home">Home</a></li>
+										<li><a class="page-scroll" href="#nosotros">Nosotros</a></li>
+										<li><a class="page-scroll" href="#ofertas">Ofertas</a></li>
+										<li><a class="page-scroll" href="#productos">Productos</a></li>
+										<li><a class="page-scroll" href="#contacto">Contacto</a></li>
+									</ul>
+								</div><!-- /.navbar-collapse -->
+							</div>
+						</nav>
+					</div>
+				</header>
+			</div>
+
+			<div class="fh5co-hero" id="home">
+				<div class="fh5co-overlay"></div>
+				<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url({% static 'landing/img/portada2.jpg' %});">
+					<div class="desc animate-box">
+						<!--
+						<h2>Capture Every <strong>Good</strong> Things</h2>
+						<span>Lovely Crafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FREEHTML5.co</a></span>
+						-->
+					</div>
+				</div>
+			</div>
+			<!-- end:header-top -->
+			<div id="fh5co-partner">
+				<div id="proveedores" class="container">
+					<div class="partner-wrap">
+						<div class="wrap">
+							<div class="partner animate-box">
+								<div class="inner">
+									<a href="http://www.sicaelec.com"><img class="img-responsive" src="{% static 'landing/img/logosica.jpg' %}" alt="Logo Sica"></a>
+								</div>
+							</div>
+							<div class="partner animate-box">
+								<div class="inner">
+									<a href="http://new.abb.com/south-america"><img class="img-responsive" src="{% static 'landing/img/logoabb2.png' %}" alt="Logo ABB"></a>
+								</div>
+							</div>
+							<div class="partner animate-box">
+								<div class="inner">
+									<a href="http://www.cchargentina.com.ar"><img class="img-responsive" src="{% static 'landing/img/logocch2.png' %}" alt="Logo CCH"></a>
+								</div>
+							</div>
+							<div class="partner animate-box">
+								<div class="inner">
+									<a href="http://www.conextube.com"><img class="img-responsive" src="{% static 'landing/img/logoconextube.jpg' %}" alt="Logo Conextube"></a>
+								</div>
+							</div>
+							<div class="partner animate-box">
+								<div class="inner">
+									<a href="http://www.kalop.com.ar"><img class="img-responsive" src="{% static 'landing/img/logokalop.jpg' %}" alt="Logo Kalop"></a>
+								</div>
+							</div>
+							<div class="partner animate-box">
+								<div class="inner">
+									<a href="http://www.cambre.com.ar"><img class="img-responsive" src="{% static 'landing/img/logocambre.jpg' %}" alt="Logo Cambre"></a>
+								</div>
+							</div>
+							<div class="partner animate-box">
+								<div class="inner">
+									<a href="http://www.siemens.com/ar/es/home.html"><img class="img-responsive" src="{% static 'landing/img/logosiemens.jpg' %}" alt="Logo Siemens"></a>
+								</div>
+							</div>
+						</div>
+						<div class="wrap">
+							<div class="partner animate-box">
+								<div class="inner">
+									<a href="http://www.jeluz.net"><img class="img-responsive" src="{% static 'landing/img/logojeluz.png' %}" alt="Logo Jeluz"></a>
+								</div>
+							</div>
+							<div class="partner animate-box">
+								<div class="inner">
+									<a href="http://www.ja-sa.com.ar/ledtechnology.html"><img class="img-responsive" src="{% static 'landing/img/logoja2.jpg' %}" alt="Logo Ja"></a>
+								</div>
+							</div>
+							<div class="partner animate-box">
+								<div class="inner">
+									<a href="http://www.roker.com.ar"><img class="img-responsive" src="{% static 'landing/img/logoroker.jpg' %}" alt="Logo Roker"></a>
+								</div>
+							</div>
+							<div class="partner animate-box">
+								<div class="inner">
+									<a href="http://www.electhomsa.com.ar"><img class="img-responsive" src="{% static 'landing/img/logoelecthom.png' %}" alt="Logo Electhom"></a>
+								</div>
+							</div>
+							<div class="partner animate-box">
+								<div class="inner">
+									<a href="http://www.tbcin.com.ar/web"><img class="img-responsive" src="{% static 'landing/img/logotbcin.png' %}" alt="Logo TBCin"></a>
+								</div>
+							</div>
+							<div class="partner animate-box">
+								<div class="inner">
+									<a href="http://www.yarlux.com"><img class="img-responsive" src="{% static 'landing/img/logoyarlux.gif' %}" alt="Logo Yarlux"></a>
+								</div>
+							</div>
+							<div class="partner animate-box">
+								<div class="inner">
+									<a href="http://www.candil.com.ar/home.aspx"><img class="img-responsive" src="{% static 'landing/img/logocandil.jpg' %}" alt="Logo Candil"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="nosotros"></div>
+			<div id="fh5co-about">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-center heading-section animate-box">
+							<h3>NOSOTROS</h3>
+						</div>
+					</div>
+					<p class="centrado animate-box">Somos una empresa con más de 30 años de trayectoria en el mercado de venta de materiales eléctricos e iluminación.<br><br>En nuestro local podrá adquirir una gran variedad y stock de productos eléctricos en las marcas más reconocidas del mercado con un precio inmejorable.<br><br>Contamos con personal capacitado para que usted reciba el asesoramiento técnico que necesita en su compra.<br><br>No dude en visitarnos.</p>
+				</div>
+				<!--
+				<div class="container">
+					<div class="row row-bottom-padded-md">
+						<div class="col-md-6 animate-box">
+							<figure>
+								<img src="{% static 'landing/img/historia.jpg' %}" alt="" class="img-responsive">
+							</figure>
+						</div>
+						<div class="col-md-6 animate-box">
+							<h3>Simple &amp; Humble Beginning</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut rerum perspiciatis, debitis pariatur atque vitae sed blanditiis nobis sint, reprehenderit quas, natus corrupti! Ipsum cum possimus corporis aut architecto! Delectus enim adipisci quidem possimus voluptates! Aut ut aliquid molestias laudantium.</p>
+						</div>
+					</div>
+					<div class="row"> -->
+						<!-- <div class="col-md-8 col-md-offset-2 animate-box">
+							<h3>Simple &amp; Humble Beginning</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut rerum perspiciatis, debitis pariatur atque vitae sed blanditiis nobis sint, reprehenderit quas, natus corrupti! Ipsum cum possimus corporis aut architecto! Delectus enim adipisci quidem possimus voluptates! Aut ut aliquid molestias laudantium.</p>
+						</div> 
+					</div>
+				</div>
+				-->
+			</div>
+
+			<div id="ofertas"></div>
+			<div id="fh5co-portfolio">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-center heading-section animate-box">
+							<h3>OFERTAS</h3>
+					<!--	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p> -->
+						</div>
+					</div>
+					<div class="row row-bottom-padded-md">
+						<div class="col-md-12">
+							<ul id="fh5co-portfolio-list">
+								{% for e in ofertas %}
+								<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url({{e.imagen.image.url}}); background-size: contain; background-repeat: no-repeat"> 
+									<a data-toggle="popover" data-trigger="focus" title="{{ e.nombre }}" data-content="{{ e.comentario }}">
+										<div class="case-studies-summary centrado">
+											<span>{{ e.categoria }}</span>
+											<h3>{{ e.nombre }}</h3>
+											<h3 class="precio">$ {{ e.precio }}</h3>
+										</div>
+									</a>
+								</li>
+								{% endfor %}
+							</ul>
+						</div>
+					</div>
+					<hr>
+					<div id="productos"></div>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-center heading-section animate-box">
+							<h3>PRODUCTOS</h3>
+					<!--	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p> -->
+						</div>
+					</div>
+					<div class="row filtros">
+						<div class="col-md-12 animate-box">
+							<div class="centrado">
+								<button class="btn btn-xs btn-primary" data-toggle="portfilter" data-target="all">
+									Todas
+								</button>
+								{% for e in productos %}
+								<button class="btn btn-xs btn-primary" data-toggle="portfilter" data-target="{{ e.categoria }}">
+									{{ e.categoria }}
+								</button>
+								{% endfor %}
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+
+					<div class="row row-bottom-padded-md">
+						<div class="col-md-12">
+							<ul id="fh5co-portfolio-list">
+								{% for e in productos %}
+								<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url({{e.imagen.image.url}}); background-size: contain; background-repeat: no-repeat" data-tag='{{ e.categoria }}'>
+									<a data-toggle="popover" data-trigger="focus" title="{{ e.nombre }}" data-content="{{ e.comentario }}">
+										<div class="case-studies-summary centrado">
+											<span>{{ e.categoria }}</span>
+											<h3>{{ e.nombre }}</h3>
+											<h3 class="precio">$ {{ e.precio }}</h3>
+										</div>
+									</a>
+								</li>
+								{% endfor %}
+							</ul>
+							<div class="push"></div>		
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="contacto"></div>
+			<div id="fh5co-contact" class="animate-box">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-sm-offset-3 text-center heading-section animate-box">
+							<h3 class="section-title">CONTACTO</h3>
+						</div>
+					</div>
+					<div class="row padre">
+						<div class="col-sm-3 col-sm-push-2 hijo margen">
+					<!--	<p>Sucrusal 1</p> -->
+							<ul class="contact-info">
+								<li><i class="icon-home22"></i>Sucursal 1</li>
+								<li><i class="icon-location-pin"></i>Av. Córdoba 4500</li>
+								<li><i class="icon-phone2"></i>+ 1235 2355 98</li>
+								<li><i class="icon-mail"></i><a href="#">info@elitrec.com.ar</a></li>
+								<li><i class="icon-globe2"></i><a href="#">www.elitrec.com.ar</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-offset-2 col-sm-3 col-sm-push-2 hijo margen">
+					<!--	<p>Sucrusal 2</p> -->
+							<ul class="contact-info">
+								<li><i class="icon-home32"></i>Sucursal 2</li>
+								<li><i class="icon-location-pin"></i>Av. Rivadavia 9500</li>
+								<li><i class="icon-phone2"></i>+ 1235 2355 98</li>
+								<li><i class="icon-mail"></i><a href="#">info@elitrec.com.ar</a></li>
+								<li><i class="icon-globe2"></i><a href="#">www.elitrec.com.ar</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 padre">
+							<div class="hijo mapa">
+								<div id='mapa' style='height:400px;width:100%;'></div>
+								<style>#mapa img{max-width:none!important;background:none!important}</style>
+							</div>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-sm-6 col-sm-offset-3 text-center heading-section animate-box">
+							<h3 class="section-title">Dejanos tu consulta</h3>
+						</div>
+					</div>
+					<form class="contact-form" role="form">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="row">
+											<div class="col-sm-12">
+												<div class="form-group">
+													<input type="text" class="form-control" id="fname" name="fname" placeholder="Nombre">
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-sm-12">
+												<div class="form-group">
+													<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+												</div>
+											</div>
+										</div>
+										<div class="row">	
+											<div class="col-sm-12">
+												<div class="form-group">
+													<input type="text" class="form-control" id="subj" name="subj" placeholder="Asunto">
+												</div>
+											</div>
+										</div>
+									</div>	
+									<div class="col-sm-6">
+										<div class="col-sm-12">
+											<div class="form-group">
+												<textarea id="mssg" name="mssg" placeholder="" class="form-control" cols ="30" rows="7"></textarea>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 centrado">
+										<div class="form-group">
+											<button class="btn btn-primary btn-md" type="submit" id="send" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Enviando..."><i class="fa fa-paper-plane "></i> Enviar</button>
+											<!--
+											<input type="submit" value="Enviar" class="btn btn-primary">
+											-->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+					<div id="result-message" role="alert"></div>
+				</div>
+			</div>
+			<!-- END fh5co-contact -->
+
+
+
+			<footer>
+				<div id="footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+								<h3>Nosotros</h3>
+								<p>Somos una empresa con más de 30 años de trayectoria en el mercado de venta de materiales eléctricos e iluminación.</p>
+							</div>
+							<div class="col-md-6 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+								<h3>Categorias de productos</h3>
+								<div class="row">
+									{% for e in productos %}
+									<div class="col-xs-6"><a href="#productos" data-target="{{ e.categoria }}">{{ e.categoria }}</a></div>
+									{% endfor %}
+								</div>
+							</div>
+
+							<div class="col-md-2 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+								<h3>Seguinos</h3>
+								<ul class="fh5co-social">
+									<li><a href="#"><i class="icon-twitter2"></i> Twitter</a></li>
+									<li><a href="#"><i class="icon-facebook2"></i> Facebook</a></li>
+									<li><a href="#"><i class="icon-google-plus2"></i> Google Plus</a></li>
+									<li><a href="#"><i class="icon-instagram2"></i> Instagram</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="fh5co-copyright text-center">
+						<p class="centrado">&copy; 2016. Todos los derechos reservados. <span>Designed by <a href="http://galcubo.com.ar/" target="_blank"><img src="{% static 'landing/img/logoG3.png' %}" alt="Logo Galcubo"></a></img></span></p>	
+					</div>
+				</div>
+			</footer>
+	
+		</div>
+		<!-- END fh5co-page -->
+
+	</div>
+	<!-- END fh5co-wrapper -->
+
+	<!-- jQuery -->
+
+	<script src="{% static 'landing/js/jquery.min.js' %}"></script>
+	<!-- jQuery Easing -->
+	<script src="{% static 'landing/js/jquery.easing.1.3.js' %}"></script>
+	<!-- Bootstrap -->
+	<script src="{% static 'landing/js/bootstrap.min.js' %}"></script>
+	<!-- Waypoints -->
+	<script src="{% static 'landing/js/jquery.waypoints.min.js' %}"></script>
+	<!-- Stellar -->
+	<script src="{% static 'landing/js/jquery.stellar.min.js' %}"></script>
+	<!-- Superfish -->
+	<script src="{% static 'landing/js/hoverIntent.js' %}"></script>
+	<script src="{% static 'landing/js/superfish.js' %}"></script>
+	<!-- Magnific Popup -->
+	<script src="{% static 'landing/js/jquery.magnific-popup.min.js' %}"></script>
+	<script src="{% static 'landing/js/magnific-popup-options.js' %}"></script>
+	<!--Scrolling Nav -->
+	<script src="{% static 'landing/js/scrolling-nav.js' %}"></script>
+	<!-- Main JS -->
+	<script src="{% static 'landing/js/main.js' %}"></script>
+
+	<script src="{% static 'landing/js/sender.js' %}"></script>
+
+	<script src="{% static 'landing/js/bootstrap-portfilter.js' %}"></script>
+
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8okcZ6J3nbOoPI2StkQNCdaXZoobbtAA&callback=initMap">
+	</script>
+	
+	<script>
+		$('.nav a').on('click', function(){
+	    $('.navbar-toggle').click() //bootstrap 3.x
+		});
+
+		//////////////////////// POPOVER ////////////////////////
+		$(document).ready(function(){
+			$('[data-toggle="popover"]').popover({
+			    html: true,
+			    placement: 'top',
+			    trigger: 'manual'
+			}).click(function(e) {
+			    $('[data-toggle="popover"]').not(this).popover('hide');
+			    $(this).popover('toggle');
+			});
+			$(document).click(function(e) {
+			    if (!$(e.target).is('[data-toggle="popover"]')) {
+			        $('[data-toggle="popover"]').popover('hide');
+			    }
+			});
+		});
+		///////////////////// FIN POPOVER ////////////////////////
+
+		////////////////////// GOOGLE MAPS //////////////////////
+		function initMap() {
+			var locations = [
+		      ['<strong>Elitrec</strong><br>Sucursal 1<br>Av. Córdoba 4500<br>', -34.5948736,-58.429535999999985, 1],
+		      ['<strong>Elitrec</strong><br>Sucursal 2<br>Av. Rivadavia 9500<br>', -34.63685863682913,-58.49765272883603, 2]
+		    ];
+
+		    var map = new google.maps.Map(document.getElementById('mapa'), {
+		      zoom: 13,
+		      center: new google.maps.LatLng(-34.615, -58.470),
+		      mapTypeId: google.maps.MapTypeId.ROADMAP
+		    });
+
+		    var infowindow = new google.maps.InfoWindow();
+
+		    var marker, i;
+
+		    for (i = 0; i < locations.length; i++) {  
+		      marker = new google.maps.Marker({
+		        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+		        map: map
+		      });
+
+			google.maps.event.addListener(marker, 'click', (function(marker, i) {
+			    return function() {
+			    	infowindow.setContent(locations[i][0]);
+			    	infowindow.open(map, marker);
+			    }
+			  })(marker, i));
+			}
+		}
+		/////////////////// FIN GOOGLE MAPS //////////////////////
+	</script>
+
+</body>
+</html>

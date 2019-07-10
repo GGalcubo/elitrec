@@ -1,0 +1,194 @@
+.navbar-inverse {
+    background-color: #555555;
+    border-color: #555555;
+}
+
+.navbar-toggle {
+    margin-top: 25px;
+    z-index: 3;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #9d9d9d;
+}
+
+#fh5co-partner .partner {
+  width: 14%;
+  float: left;
+}
+
+#proveedores {
+	width: 100%;
+}
+
+#fh5co-partner .wrap {
+    position: relative;
+    top: 0px;
+    left: 0;
+    padding: 20px 0 50px 0;
+}
+
+#fh5co-partner {
+    margin-top: -4em;
+}
+
+#fh5co-about {
+	margin-top: 50px;
+}
+
+#fh5co-about p {
+    font-size: 1.2em;
+}
+
+#productos {
+    height: 110px;
+}
+
+#fh5co-portfolio-list li a .case-studies-summary span {
+    color: white;
+}
+
+#fh5co-portfolio-list li a .case-studies-summary h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+#fh5co-portfolio-list li a .case-studies-summary {
+    background-color: rgba(239,98,73,0.75);
+}
+
+#fh5co-portfolio-list li a:hover:before {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+#fh5co-portfolio-list .animated {
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+/*
+#fh5co-portfolio-list li a .case-studies-summary h3.precio {
+    color: blue;
+}
+*/
+.fh5co-cover.fh5co-hero-2, .fh5co-hero.fh5co-hero-2 {
+    height: 100vh;
+}
+
+.fh5co-cover.fh5co-cover_2 {
+    height: 100vh;
+}
+
+.padre {
+    text-align: center;
+/*  width: 100%; */
+}
+
+.hijo {
+    display: inline-block;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.margen {
+    margin-bottom: 15px;
+}
+
+.mapa {
+    overflow:hidden;
+    height:400px;
+    width:80%;'
+}
+
+#footer {
+    padding: 3em 0 0 0;
+}
+
+#footer .fh5co-copyright {
+    margin-top: 0;
+    padding: 1em;
+}
+
+#footer p {
+    margin-bottom: 0;
+}
+
+#footer img {
+    width: 40px;
+}
+
+.popover {
+    z-index: 1;
+    max-width: 90%;
+}
+
+.popover-title {
+    text-align: center;
+    background-color: #f38976;
+    color: white;
+}
+
+.popover-content {
+    background-color: #ffffff;
+}
+
+.filtros {
+    margin-bottom: 20px;
+}
+
+.btn-xs {
+    font-size: 13px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    background: #fff;
+    border-color: #f17660;
+    color: #f17660;
+}
+
+#fh5co-contact p, {
+    text-align: center;
+}
+
+#send {
+    border-radius: 5px;
+}
+
+a {
+    color: #848484;
+    } 
+
+@media screen and (max-width: 768px) {
+    .fh5co-nav-toggle {
+        right: 25px;
+    }
+
+}
+/*
+@media screen and (max-width: 767px) {
+
+    #sucursales {
+        margin-right: 50px;
+    }
+
+}
+*/
+@media (min-width: 768px) {
+    .navbar-right {
+        margin-right: 0;
+        margin-top: 15px;
+    }
+
+    .navbar {
+        padding: 0px 0;
+    }
+
+
+}
